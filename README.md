@@ -1,3 +1,4 @@
+
 Stripo Email Management System
 This project is designed to manage email templates using the Stripo API. It includes features for sending emails, previewing emails, saving email content to a MySQL database, and viewing email templates.
 
@@ -22,7 +23,6 @@ Update_email.php: Processes the update data, compiles it using the Stripo API, a
 
 Email_preview:
 view_email.php: Allows viewing of the updated email content.
-
-Root Folder:
+<a href="https://lucky725744.github.io/Stripo_Email/phpmailer_smtp/Email_Create/Create_Email">VIEW_DEMO</a>
 
 test.php: This script is responsible for sending the compiled email when the "Send" button is clicked. It utilizes PHPMailer to send the email via SMTP.
