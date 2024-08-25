@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Stripo Plugin Example</title>
+    <link rel="stylesheet" href="/phpmailer_smtp/Common_css_js/Strio_common.css">
+    <script src="/phpmailer_smtp/Common_css_js/jquery-3.6.0.min.js"></script>
+    <script src="/phpmailer_smtp/Common_css_js/jquery-ui.js"></script>
+    
+    <script src="Create_Email.js"></script>
+    
+  </head>
+  <body>
+    <div id="mainContainer">
+        <div id="externalSystemContainer">
+            <div>
+                <button id="undoButton" class="control-button hidden">Undo</button>
+                <button id="redoButton" class="control-button hidden">Redo</button>
+                <button id="codeEditor" class="control-button">Code editor</button>
+            </div>
+            <div>
+                <button  onclick="Preview()" class="control-button">Preview</button>
+                <button  onclick="Send()" class="control-button">Send_Mail</button>
+                <button  onclick="SAVETODB()" class="control-button">Save_To_Db</button>
+              <button  class="control-button">
+                <a href="http://localhost/phpmailer_smtp/Email_View/View_Email.php"  target="_blank">View_Mail</a>
+              </button>
+            </div>
+        </div>
+        <div>
+            <div id="stripoSettingsContainer">Loading...</div>
+            <div id="stripoPreviewContainer"></div>
+        </div>
+    </div>
+  </body>
+</html>

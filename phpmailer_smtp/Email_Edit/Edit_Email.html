@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edit Template</title>
+    <link rel="stylesheet" href="/phpmailer_smtp/Common_css_js/Strio_common.css">
+    <script src="/phpmailer_smtp/Common_css_js/jquery-3.6.0.min.js"></script>
+    <script src="/phpmailer_smtp/Common_css_js/jquery-ui.js"></script>
+    <script src="Edit_Email.js"></script>
+</head>
+  <body>
+    <div id="mainContainer">
+        <div id="externalSystemContainer">
+            <div>
+                <button id="undoButton" class="control-button hidden">Undo</button>
+                <button id="redoButton" class="control-button hidden">Redo</button>
+                <button id="codeEditor" class="control-button">Code editor</button>
+            </div>
+            <div>
+                <button  onclick="Preview()" class="control-button">Preview</button>
+                <button  onclick="Send()" class="control-button">Send_Mail</button>
+                <button  onclick="UpdateToDb()" class="control-button">UpdateToDb</button>
+            </div>
+        </div>
+        <div>
+            <div id="stripoSettingsContainer">Loading...</div>
+            <div id="stripoPreviewContainer"></div>
+        </div>
+    </div>
+</body>
+</html>

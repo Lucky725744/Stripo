@@ -1,0 +1,40 @@
+#externalSystemContainer {
+    background-color: darkgrey;
+    padding: 5px 20px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .hidden{
+    display: none;
+  }
+  #stripoSettingsContainer {
+    width: 400px;
+    float: left;
+  }
+  #stripoPreviewContainer {
+    width: calc(100% - 400px);
+    float: left;
+  }
+  .notification-zone {
+    position: fixed;
+    width: 400px;
+    z-index: 99999;
+    right: 30px;
+    bottom: 80px;
+  }
+  .control-button {
+    border-radius: 17px;
+    padding: 5px 10px;
+    border-color: grey;
+    cursor: pointer;
+  }
+  #changeHistoryLink {
+    cursor: pointer;
+  }
+  .alert-success {
+    color: #046904;
+    background: #b5e8b5;
+    padding: 5px 10px;
+    border: 2px solid #046904;
+    border-radius: 15px;
+  } 
