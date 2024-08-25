@@ -7,11 +7,52 @@
     <script src="/phpmailer_smtp/Common_css_js/jquery-3.6.0.min.js"></script>
     <script src="/phpmailer_smtp/Common_css_js/jquery-ui.js"></script> -->
     <!-------Updating file loaction to get -->
-        <link rel="stylesheet" href="https://lucky725744.github.io/Stripo_Email/phpmailer_smtp/Common_css_js/Strio_common.css">
-    <script src="https://lucky725744.github.io/Stripo_Email/phpmailer_smtp/Common_css_js/jquery-3.6.0.min.js"></script>
-    <script src="https://lucky725744.github.io/Stripo_Email/phpmailer_smtp/Common_css_js/jquery-ui.js"></script>
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+   <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js" integrity="sha256-T0Vest3yCU7pafRw9r+settMBX6JkKN06dqBnpQ8d30=" crossorigin="anonymous"></script>
     
     <script src="Create_Email.js"></script>
+    <style>
+      #externalSystemContainer {
+    background-color: darkgrey;
+    padding: 5px 20px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .hidden{
+    display: none;
+  }
+  #stripoSettingsContainer {
+    width: 400px;
+    float: left;
+  }
+  #stripoPreviewContainer {
+    width: calc(100% - 400px);
+    float: left;
+  }
+  .notification-zone {
+    position: fixed;
+    width: 400px;
+    z-index: 99999;
+    right: 30px;
+    bottom: 80px;
+  }
+  .control-button {
+    border-radius: 17px;
+    padding: 5px 10px;
+    border-color: grey;
+    cursor: pointer;
+  }
+  #changeHistoryLink {
+    cursor: pointer;
+  }
+  .alert-success {
+    color: #046904;
+    background: #b5e8b5;
+    padding: 5px 10px;
+    border: 2px solid #046904;
+    border-radius: 15px;
+  } 
+    </style>
     
   </head>
   <body>
